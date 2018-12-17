@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="aos.css">
+        <style>
+
+            /*skill bar starts*/
+
+
+            .skillbar {
+                position:relative;
+                display:block;
+                margin-bottom:10px;
+                width:100%;
+                background:#eee;
+                height:30px;
+                border-radius:3px;
+                -moz-border-radius:3px;
+                -webkit-border-radius:3px;
+                -webkit-transition:0.4s linear;
+                -moz-transition:0.4s linear;
+                -ms-transition:0.4s linear;
+                -o-transition:0.4s linear;
+                transition:0.4s linear;
+                -webkit-transition-property:width, background-color;
+                -moz-transition-property:width, background-color;
+                -ms-transition-property:width, background-color;
+                -o-transition-property:width, background-color;
+                transition-property:width, background-color;
+            }
+
+            .skillbar-title {
+                position:absolute;
+                top:0;
+                left:0;
+                width:110px;
+                font-weight:bold;
+                font-size:13px;
+                color:#ffffff;
+                background:#6adcfa;
+                -webkit-border-top-left-radius:3px;
+                -webkit-border-bottom-left-radius:4px;
+                -moz-border-radius-topleft:3px;
+                -moz-border-radius-bottomleft:3px;
+                border-top-left-radius:3px;
+                border-bottom-left-radius:3px;
+            }
+
+            .skillbar-title span {
+                display:block;
+                background:rgba(0, 0, 0, 0.1);
+                padding:0 20px;
+                height:30px;
+                line-height:30px;
+                -webkit-border-top-left-radius:3px;
+                -webkit-border-bottom-left-radius:3px;
+                -moz-border-radius-topleft:3px;
+                -moz-border-radius-bottomleft:3px;
+                border-top-left-radius:3px;
+                border-bottom-left-radius:3px;
+            }
+
+            .skillbar-bar {
+                height:30px;
+                width:0px;
+                background:#6adcfa;
+                border-radius:3px;
+                -moz-border-radius:3px;
+                -webkit-border-radius:3px;
+            }
+
+            .skill-bar-percent {
+                position:absolute;
+                right:10px;
+                top:0;
+                font-size:11px;
+                height:35px;
+                line-height:35px;
+                color:#ffffff;
+                color:rgba(0, 0, 0, 0.4);
+            }
+            /*skill bar ends*/
+             
+        </style>
+    </head>
+
+    <body>
+        <div style="height: 1000px; background-color: gold"></div>
+
+                    <div data-aos="flip-left">
+                        <div class="skillbar clearfix" data-percent="80%">
+                            <div class="skillbar-title" style="background: #d35400;"><span>HTML</span></div>
+                            <div class="skillbar-bar" style="background: #e67e22;"></div>
+                            <div class="skill-bar-percent">80%</div>
+                        </div> <!-- End Skill Bar -->
+
+                        <div class="skillbar clearfix " data-percent="30%">
+                            <div class="skillbar-title" style="background: #333333;"><span>HTML</span></div>
+                            <div class="skillbar-bar" style="background: #525252;"></div>
+                            <div class="skill-bar-percent">30%</div>
+                        </div> <!-- End Skill Bar -->
+
+                        <div class="skillbar clearfix " data-percent="60%">
+                            <div class="skillbar-title" style="background: #27ae60;"><span>HTML</span></div>
+                            <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                            <div class="skill-bar-percent">60%</div>
+                        </div> <!-- End Skill Bar -->
+
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #124e8c;"><span>HTML</span></div>
+                            <div class="skillbar-bar" style="background: #4288d0;"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div> <!-- End Skill Bar -->
+                     
+                    </div>
+        
+
+
+
+        <script src='http://code.jquery.com/jquery-3.3.1.min.js'></script>
+        <script  src="aos.js"></script>
+        
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script  src="index.js"></script>
+    </body>
+</html>
